@@ -1,4 +1,5 @@
 if ($.fn.jquery){
+    console.log('script is ready');
     let is_state = 'staff_user';
     let hide_blocks_classes = ['.version-json-controls', '.staffUser', '.staff.with-arrow-thin'];
         hide_blocks_classes = hide_blocks_classes.join(', ');
